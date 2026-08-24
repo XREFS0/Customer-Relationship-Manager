@@ -1,0 +1,28 @@
+## Build and Output Folders
+bin/
+obj/
+out/
+publish/
+
+## Visual Studio & User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+## Database & Runtime logs
+*.db
+*.db-shm
+*.db-wal
+*.bak
+Logs/
+bin/**/Data/*.db
+bin/**/Logs/*.txt
+
+## OS Generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
